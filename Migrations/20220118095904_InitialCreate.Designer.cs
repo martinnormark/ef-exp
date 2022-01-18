@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ef_exp.Migrations
 {
     [DbContext(typeof(ExpDbContext))]
-    [Migration("20220117204951_InitialCreate")]
+    [Migration("20220118095904_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,7 @@ namespace ef_exp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Posts");
+                    b.ToTable("Post");
 
                     b.HasData(
                         new

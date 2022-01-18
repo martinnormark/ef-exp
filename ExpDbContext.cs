@@ -1,14 +1,10 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace EfExp
 {
 	public class ExpDbContext : DbContext
 	{
-		public DbSet<Post>? Posts { get; set; }
+		public DbSet<Post>? Post { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

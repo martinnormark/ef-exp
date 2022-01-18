@@ -34,7 +34,7 @@ namespace ef_exp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Posts");
+                    b.ToTable("Post");
 
                     b.HasData(
                         new

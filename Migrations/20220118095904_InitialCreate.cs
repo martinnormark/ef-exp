@@ -9,7 +9,7 @@ namespace ef_exp.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Posts",
+                name: "Post",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -18,11 +18,11 @@ namespace ef_exp.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Posts", x => x.Id);
+                    table.PrimaryKey("PK_Post", x => x.Id);
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -71,7 +71,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -120,7 +120,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -169,7 +169,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -218,7 +218,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -267,7 +267,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -316,7 +316,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -365,7 +365,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -414,7 +414,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -463,7 +463,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -512,7 +512,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -561,7 +561,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -610,7 +610,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -659,7 +659,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -708,7 +708,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -757,7 +757,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -806,7 +806,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -855,7 +855,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -904,7 +904,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -953,7 +953,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1002,7 +1002,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1051,7 +1051,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1100,7 +1100,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1149,7 +1149,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1198,7 +1198,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1247,7 +1247,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1296,7 +1296,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1345,7 +1345,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1394,7 +1394,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1443,7 +1443,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1492,7 +1492,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1541,7 +1541,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1590,7 +1590,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1639,7 +1639,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1688,7 +1688,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1737,7 +1737,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1786,7 +1786,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1835,7 +1835,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1884,7 +1884,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1933,7 +1933,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -1982,7 +1982,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2031,7 +2031,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2080,7 +2080,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2129,7 +2129,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2178,7 +2178,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2227,7 +2227,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2276,7 +2276,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2325,7 +2325,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2374,7 +2374,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2423,7 +2423,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2472,7 +2472,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2521,7 +2521,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2570,7 +2570,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2619,7 +2619,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2668,7 +2668,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2717,7 +2717,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2766,7 +2766,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2815,7 +2815,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2864,7 +2864,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2913,7 +2913,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -2962,7 +2962,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3011,7 +3011,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3060,7 +3060,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3109,7 +3109,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3158,7 +3158,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3207,7 +3207,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3256,7 +3256,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3305,7 +3305,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3354,7 +3354,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3403,7 +3403,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3452,7 +3452,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3501,7 +3501,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3550,7 +3550,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3599,7 +3599,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3648,7 +3648,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3697,7 +3697,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3746,7 +3746,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3795,7 +3795,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3844,7 +3844,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3893,7 +3893,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3942,7 +3942,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -3991,7 +3991,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4040,7 +4040,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4089,7 +4089,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4138,7 +4138,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4187,7 +4187,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4236,7 +4236,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4285,7 +4285,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4334,7 +4334,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4383,7 +4383,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4432,7 +4432,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4481,7 +4481,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4530,7 +4530,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4579,7 +4579,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4628,7 +4628,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4677,7 +4677,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4726,7 +4726,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4775,7 +4775,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4824,7 +4824,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4873,7 +4873,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4922,7 +4922,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -4971,7 +4971,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5020,7 +5020,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5069,7 +5069,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5118,7 +5118,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5167,7 +5167,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5216,7 +5216,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5265,7 +5265,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5314,7 +5314,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5363,7 +5363,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5412,7 +5412,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5461,7 +5461,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5510,7 +5510,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5559,7 +5559,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5608,7 +5608,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5657,7 +5657,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5706,7 +5706,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5755,7 +5755,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5804,7 +5804,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5853,7 +5853,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5902,7 +5902,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -5951,7 +5951,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6000,7 +6000,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6049,7 +6049,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6098,7 +6098,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6147,7 +6147,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6196,7 +6196,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6245,7 +6245,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6294,7 +6294,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6343,7 +6343,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6392,7 +6392,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6441,7 +6441,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6490,7 +6490,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6539,7 +6539,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6588,7 +6588,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6637,7 +6637,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6686,7 +6686,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6735,7 +6735,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6784,7 +6784,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6833,7 +6833,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6882,7 +6882,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6931,7 +6931,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -6980,7 +6980,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7029,7 +7029,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7078,7 +7078,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7127,7 +7127,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7176,7 +7176,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7225,7 +7225,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7274,7 +7274,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7323,7 +7323,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7372,7 +7372,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7421,7 +7421,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7470,7 +7470,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7519,7 +7519,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7568,7 +7568,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7617,7 +7617,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7666,7 +7666,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7715,7 +7715,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7764,7 +7764,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7813,7 +7813,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7862,7 +7862,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7911,7 +7911,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -7960,7 +7960,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8009,7 +8009,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8058,7 +8058,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8107,7 +8107,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8156,7 +8156,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8205,7 +8205,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8254,7 +8254,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8303,7 +8303,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8352,7 +8352,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8401,7 +8401,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8450,7 +8450,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8499,7 +8499,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8548,7 +8548,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8597,7 +8597,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8646,7 +8646,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8695,7 +8695,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8744,7 +8744,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8793,7 +8793,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8842,7 +8842,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8891,7 +8891,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8940,7 +8940,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -8989,7 +8989,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9038,7 +9038,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9087,7 +9087,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9136,7 +9136,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9185,7 +9185,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9234,7 +9234,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9283,7 +9283,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9332,7 +9332,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9381,7 +9381,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9430,7 +9430,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9479,7 +9479,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9528,7 +9528,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9577,7 +9577,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9626,7 +9626,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9675,7 +9675,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9724,7 +9724,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9773,7 +9773,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9822,7 +9822,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9871,7 +9871,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9920,7 +9920,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -9969,7 +9969,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10018,7 +10018,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10067,7 +10067,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10116,7 +10116,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10165,7 +10165,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10214,7 +10214,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10263,7 +10263,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10312,7 +10312,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10361,7 +10361,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10410,7 +10410,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10459,7 +10459,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10508,7 +10508,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10557,7 +10557,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10606,7 +10606,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10655,7 +10655,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10704,7 +10704,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10753,7 +10753,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10802,7 +10802,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10851,7 +10851,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10900,7 +10900,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10949,7 +10949,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -10998,7 +10998,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11047,7 +11047,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11096,7 +11096,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11145,7 +11145,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11194,7 +11194,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11243,7 +11243,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11292,7 +11292,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11341,7 +11341,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11390,7 +11390,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11439,7 +11439,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11488,7 +11488,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11537,7 +11537,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11586,7 +11586,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11635,7 +11635,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11684,7 +11684,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11733,7 +11733,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11782,7 +11782,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11831,7 +11831,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11880,7 +11880,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11929,7 +11929,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -11978,7 +11978,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12027,7 +12027,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12076,7 +12076,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12125,7 +12125,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12174,7 +12174,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12223,7 +12223,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12272,7 +12272,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12321,7 +12321,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12370,7 +12370,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12419,7 +12419,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12468,7 +12468,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12517,7 +12517,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12566,7 +12566,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12615,7 +12615,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12664,7 +12664,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12713,7 +12713,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12762,7 +12762,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12811,7 +12811,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12860,7 +12860,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12909,7 +12909,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -12958,7 +12958,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13007,7 +13007,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13056,7 +13056,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13105,7 +13105,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13154,7 +13154,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13203,7 +13203,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13252,7 +13252,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13301,7 +13301,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13350,7 +13350,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13399,7 +13399,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13448,7 +13448,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13497,7 +13497,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13546,7 +13546,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13595,7 +13595,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13644,7 +13644,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13693,7 +13693,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13742,7 +13742,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13791,7 +13791,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13840,7 +13840,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13889,7 +13889,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13938,7 +13938,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -13987,7 +13987,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14036,7 +14036,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14085,7 +14085,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14134,7 +14134,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14183,7 +14183,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14232,7 +14232,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14281,7 +14281,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14330,7 +14330,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14379,7 +14379,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14428,7 +14428,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14477,7 +14477,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14526,7 +14526,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14575,7 +14575,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14624,7 +14624,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14673,7 +14673,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14722,7 +14722,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14771,7 +14771,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14820,7 +14820,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14869,7 +14869,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14918,7 +14918,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -14967,7 +14967,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15016,7 +15016,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15065,7 +15065,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15114,7 +15114,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15163,7 +15163,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15212,7 +15212,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15261,7 +15261,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15310,7 +15310,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15359,7 +15359,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15408,7 +15408,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15457,7 +15457,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15506,7 +15506,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15555,7 +15555,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15604,7 +15604,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15653,7 +15653,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15702,7 +15702,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15751,7 +15751,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15800,7 +15800,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15849,7 +15849,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15898,7 +15898,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15947,7 +15947,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -15996,7 +15996,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16045,7 +16045,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16094,7 +16094,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16143,7 +16143,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16192,7 +16192,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16241,7 +16241,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16290,7 +16290,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16339,7 +16339,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16388,7 +16388,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16437,7 +16437,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16486,7 +16486,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16535,7 +16535,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16584,7 +16584,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16633,7 +16633,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16682,7 +16682,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16731,7 +16731,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16780,7 +16780,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16829,7 +16829,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16878,7 +16878,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16927,7 +16927,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -16976,7 +16976,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17025,7 +17025,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17074,7 +17074,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17123,7 +17123,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17172,7 +17172,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17221,7 +17221,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17270,7 +17270,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17319,7 +17319,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17368,7 +17368,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17417,7 +17417,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17466,7 +17466,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17515,7 +17515,7 @@ namespace ef_exp.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "Posts",
+                table: "Post",
                 columns: new[] { "Id", "Sequence" },
                 values: new object[,]
                 {
@@ -17530,7 +17530,7 @@ namespace ef_exp.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Posts");
+                name: "Post");
         }
     }
 }

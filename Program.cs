@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
 using EfExp;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 Console.WriteLine("Warming up EF context to database...");
 
@@ -12,7 +11,7 @@ for (int i = 0; i < 10; i++)
 	await context.Set<Post>().Where(p => p.Id > 12000).ToListAsync();
 }
 
-var count = context.Posts?.Count();
+var count = context.Post?.Count();
 var random = new Random();
 
 var stats = new List<EfStat>();
