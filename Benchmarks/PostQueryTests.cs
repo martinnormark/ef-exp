@@ -5,20 +5,15 @@ namespace EfExp.Benchmarks
 {
 	public class PostQueryTests
 	{
-		private ExpDbContext? _context;
-		[Params(10, 100, 5000, 10000, 13500)]
-		public int N;
+		private readonly ExpDbContext? _context = new ExpDbContext();
 
-		[GlobalSetup]
-		public void GlobalSetup()
-		{
-			_context = new ExpDbContext();
-		}
+		[Params(10, 100, 5000, 10000, 13500)]
+		public int IdsAbove;
 
 		[Benchmark]
 		public void QueryWithTracking()
 		{
-			var toDelete = _context?.Set<Post>().Where(p => p.Id > N).ToList();
+			var toDelete = _context?.Set<Post>().Where(p => p.Id > IdsAbove).ToList();
 		}
 
 		[Benchmark]
@@ -27,7 +22,7 @@ namespace EfExp.Benchmarks
 			var toDelete = _context?
 				.Set<Post>()
 				.AsNoTracking()
-				.Where(p => p.Id > N).ToList();
+				.Where(p => p.Id > IdsAbove).ToList();
 		}
 	}
 }
