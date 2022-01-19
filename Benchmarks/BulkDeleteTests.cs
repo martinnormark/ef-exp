@@ -12,12 +12,14 @@ namespace EfExp.Benchmarks
 			_context = new ExpDbContext();
 		}
 
-		[Params(10, 100, 5000, 10000, 13500)]
+		[Params(100, 8000, 13500)]
 		public int IdsAbove;
 
 		[IterationSetup]
 		public void IterationSetup()
 		{
+			_context.ChangeTracker.AutoDetectChangesEnabled = false;
+
 			var range = new List<int>();
 
 			for (int i = 1; i < 15000; i++)
@@ -28,6 +30,7 @@ namespace EfExp.Benchmarks
 			_context.Post?.AddRange(range.Select(i => new Post { Sequence = $"Seq {i}" }));
 			_context.SaveChanges();
 
+			_context.ChangeTracker.AutoDetectChangesEnabled = false;
 			_context.ChangeTracker.Clear();
 		}
 
@@ -48,12 +51,25 @@ namespace EfExp.Benchmarks
 		}
 
 		[Benchmark]
-		public void DeleteFullEntityNoTracking()
+		public void DeleteFullEntityDetached()
 		{
 			var toDelete = _context
 				.Set<Post>()
 				.AsNoTracking()
 				.Where(p => p.Id > IdsAbove);
+
+			_context.RemoveRange(toDelete);
+			_context.SaveChanges();
+		}
+
+		[Benchmark]
+		public void DeleteByIdEntityDetached()
+		{
+			var toDelete = _context
+				.Set<Post>()
+				.AsNoTracking()
+				.Where(p => p.Id > IdsAbove)
+				.Select(p => new Post { Id = p.Id });
 
 			_context.RemoveRange(toDelete);
 			_context.SaveChanges();
