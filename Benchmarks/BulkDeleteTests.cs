@@ -1,15 +1,19 @@
 using BenchmarkDotNet.Attributes;
 using Microsoft.EntityFrameworkCore;
+using EfExp.Models;
+using EfExp.ModelFactories;
 
 namespace EfExp.Benchmarks
 {
 	public class BulkDeleteTests
 	{
 		private readonly ExpDbContext _context;
+		private readonly PostFactory _postFactory;
 
 		public BulkDeleteTests()
 		{
 			_context = new ExpDbContext();
+			_postFactory = new PostFactory();
 		}
 
 		[Params(100, 8000, 13500)]
@@ -20,14 +24,9 @@ namespace EfExp.Benchmarks
 		{
 			_context.ChangeTracker.AutoDetectChangesEnabled = false;
 
-			var range = new List<int>();
+			var posts = _postFactory.Create(15000);
 
-			for (int i = 1; i < 15000; i++)
-			{
-				range.Add(i);
-			}
-
-			_context.Post?.AddRange(range.Select(i => new Post { Sequence = $"Seq {i}" }));
+			_context.Post?.AddRange(posts);
 			_context.SaveChanges();
 
 			_context.ChangeTracker.AutoDetectChangesEnabled = false;
