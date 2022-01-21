@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using EfExp.Models;
 
 namespace EfExp
 {
@@ -13,11 +14,5 @@ namespace EfExp
 
 		protected override void OnConfiguring(DbContextOptionsBuilder options)
 			=> options.UseSqlServer($"Server=.;Database=EfExp;Trusted_Connection=True;");
-	}
-
-	public class Post
-	{
-		public int Id { get; set; }
-		public string? Sequence { get; set; }
 	}
 }
